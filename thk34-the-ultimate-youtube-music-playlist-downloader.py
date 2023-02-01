@@ -7,7 +7,7 @@ import re
 
 playlist = Playlist("put the link of the playlist here, it must be unlisted or in public but not in private")
 
-playlist.video_urls
+playlist.video_urls # displays all of the playlist's musics URLs 
 for url in playlist:
     print(url)
 
